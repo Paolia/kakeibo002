@@ -1,0 +1,211 @@
+body {
+    background: rgb(23, 135, 73);
+    background-image: url("../img/note.png");
+    color: rgb(#0e0534);
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    display: flex;
+}
+
+header {
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: rgb(67, 49, 13);
+    background-image: url("../img/mod.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid #eee590dd;
+}
+
+h1 {
+    color: #333;
+    margin-top: 65px;
+    margin-left: 40%px;
+    /*filter: drop-shadow(1px 1px 2px rgb(30 10 10));*/
+}
+
+h2 {
+    margin-left: 37%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    padding: 4px;
+    background-color: rgb(67, 49, 13);
+    background-image: url("../img/crumple.png");
+    color: #eee;
+    font-size: 18px;
+    text-align: end;
+    filter: drop-shadow(4px, 4px, 4px, #222);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+footer p {
+    padding-right: 40px;
+}
+
+button {
+    z-index: 1;
+    margin-left: 60px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 36px;
+    color: rgb(108 80 15);
+    background-color: rgb(216, 160, 30);
+    filter: drop-shadow(4px 4px 4px rgb(10 10 10));
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button:hover {
+    background-color: aqua;
+    filter: drop-shadow(2px 2px 2px rgb(5 5 5));
+    translate: 1px 1px;
+}
+
+button:active {
+    color: rgb(255 190 36);
+    background-color: rgb(216, 160, 30);
+    filter: drop-shadow(2px 2px 2px rgb(50 0 50));
+    translate: 2px 2px;
+}
+
+#registar {
+    margin: o, auto;
+}
+
+.login {
+    margin-top: 100px;
+    margin-left: 20%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.logout {
+    margin-top: 160px;
+    margin-left: 10px;
+    width: 30%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.alert {
+    margin-top: 200px;
+    margin-left: 30%;
+    width: 40%;
+    font-size: 21px;
+}
+
+.by_class_table {
+    width: 800px;
+    margin-left: 25%;
+}
+
+fieldset {
+    margin-top: 10px;
+    width: 800px;
+}
+
+.kakeibo_table {
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 120px;
+    font-weight: 300;
+    font-size: 12px;
+
+}
+
+.kakeibo_table td {
+    text-align: center;
+}
+
+#confirm {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+#confirm td {
+    width: 220px;
+}
+
+#conf {
+    margin-top: 100px;
+}
+
+#toptitle {
+    margin-top: 120px;
+}
+
+#check {
+    width: 50%;
+    display: flex;
+    margin-left: 30%;
+}
+
+#check button {
+    z-index: 1;
+    margin-left: 60px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 32px;
+    color: rgb(108 80 15);
+    background-color: rgb(216, 160, 30);
+    filter: drop-shadow(4px 4px 4px rgb(10 10 10));
+    font-size: 21px;
+    border-radius: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#backbtn {
+    margin-left: 40%;
+    width: 80px;
+}
+
+#backbtn2 {
+    margin-left: 40%;
+    width: 80px;
+}
+
+#name_sel {
+    width: 200px;
+    height: 30px;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+#add_records {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+#kakeibo_update {
+    margin-top: 100px;
+}
